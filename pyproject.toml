@@ -1,0 +1,21 @@
+[project]
+name = "mac-m4-price-trends"
+version = "0.1.0"
+description = "MPS hardware-accelerated implementation of Re-Imaging Price Trends for Mac M4"
+requires-python = ">=3.9"
+dependencies = [
+    "yfinance>=0.2.36",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+    "Pillow>=10.0.0",
+    # PyTorch natively supports Apple Silicon's Metal Performance Shaders (MPS) 
+    # out of the box. No special 'cuda-like' pip flags are needed!
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "tqdm>=4.65.0",
+    "requests>=2.31.0",
+    "pyarrow>=14.0.0",
+    "lxml>=5.1.0",
+    "jupyter>=1.0.0"
+]

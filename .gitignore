@@ -1,0 +1,21 @@
+# Licensed CRSP / WRDS extract -- NEVER publish
+yt0cuea6l3exoxvg.csv
+
+# Market data + generated image stores (large; regenerate from source)
+*.parquet
+*.npy
+*.dat
+*.pt
+*.csv
+image_store/
+crypto_image_store/
+preds/
+.DS_Store
+__pycache__/
+*.pyc
+venv/
+.venv/
+.ipynb_checkpoints/
+.env
+.Rhistory
+.Rproj.user/
